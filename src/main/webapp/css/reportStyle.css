@@ -1,0 +1,117 @@
+/* 
+    Author     : S69935
+    Document   : reportStyle.css
+*/
+
+body {
+    background-color: #E8E9EB;
+    font-family: Georgia, serif;
+    color: #1b5e20;
+}
+
+h2 {
+    background-color: #00674F;
+    color: white;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #1b5e20;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00674F;
+    color: white;
+}
+
+.button-float-group {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.button-float-group .btn {
+    margin-left: 10px;
+}
+
+.btn {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn.back {
+    background-color: darkslategray;
+}
+
+.btn.back:hover {
+    background-color: gray;
+}
+
+.report-form-horizontal {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 100%;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, serif;
+    color: #1b5e20;
+}
+
+.report-form-horizontal label {
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.report-form-horizontal select {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1.5px solid #1b5e20;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: #1b5e20;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    min-width: 180px;
+}
+
+.report-form-horizontal select:focus {
+    border-color: #00674F;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #00674F;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.submit-btn:hover {
+    background-color: #004d37;
+}

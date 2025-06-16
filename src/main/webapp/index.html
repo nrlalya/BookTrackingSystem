@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- 
+    Author   : S69935
+    Document : index.html
+-->
+
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="image/system_logo.png">
+        <title>Book Tracking System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: #E8E9EB;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 100vh;
+                overflow: hidden;
+                margin: 0;
+                background-image: url('image/wallpaper_1.jpg'); /* path ke dalam folder image */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            h1 {
+                font-family: Georgia, serif;
+                font-size: 80px;
+                margin: 0 0 20px 0;
+            }
+
+            input[type=button] {
+                background-color: #00674F;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-left: 10px;
+                width: 200px;
+                font-size: 20px;
+                font-family: Georgia, serif;
+            }
+
+            input[type=button]:hover {
+                background-color: #0A3C30;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Organize. Track. Discover. <br> All Your Books Here.</h1>
+        <p><input type="button" value="Let’s Track Books!" onclick="window.location.href = 'listBooks.jsp'"></p>
+    </body>
+</html>
