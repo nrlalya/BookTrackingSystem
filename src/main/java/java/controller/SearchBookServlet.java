@@ -12,7 +12,7 @@ import java.io.*;
 import java.sql.*;
 import dao.DBUtil;
 
-@WebServlet("/controller/SearchBookServlet")
+@WebServlet("/java.controller/SearchBookServlet")
 public class SearchBookServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

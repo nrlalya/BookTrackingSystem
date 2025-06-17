@@ -12,7 +12,7 @@ import java.sql.*;
 import dao.DBUtil;
 import javax.servlet.annotation.WebServlet;
 
-@WebServlet("/controller/EditBookServlet")
+@WebServlet("/java.controller/EditBookServlet")
 public class EditBookServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
