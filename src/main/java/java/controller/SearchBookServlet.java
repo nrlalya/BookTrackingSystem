@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.*;
 import java.sql.*;
-import java.dao.DBUtil;
+import dao.DBUtil;
 
 @WebServlet("/controller/SearchBookServlet")
 public class SearchBookServlet extends HttpServlet {

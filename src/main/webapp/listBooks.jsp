@@ -4,7 +4,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*, java.dao.DBUtil" %>
+<%@ page import="java.sql.*, dao.DBUtil" %>
 
 <!DOCTYPE html>
 <html>

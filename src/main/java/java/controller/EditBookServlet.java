@@ -9,7 +9,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.*;
 import java.sql.*;
-import java.dao.DBUtil;
+import dao.DBUtil;
 import javax.servlet.annotation.WebServlet;
 
 @WebServlet("/controller/EditBookServlet")
